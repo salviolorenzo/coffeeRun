@@ -10,37 +10,37 @@
 </head>
 <body>
     <h1>Coffee Run</h1>
-
     <form action="https://dc-coffeerun.herokuapp.com/api/coffeeOrders" method="POST" data-form>
         <label>
-            Coffee:
+            Coffee:<br>
             <input type="text" name="coffee" placeholder="Cappucino" value="black">
         </label>
-        <br><br>
+        <br>
         <label>
-            Email Address:
+            Email Address:<br>
             <input type="email" name="emailAddress" placeholder="ronswanson@email.com" value="ronswanson@email.com">
         </label>
-        <br><br>
+        <br>
         <label>
-            Flavor:
+            Flavor:<br>
             <input type="text" name="flavor" placeholder="Caramel" value="none">
         </label>
-        <br><br>
+        <br>
         <label>
-            Size: 
+            Size: <br>
             <input type="text" name="size" placeholder="Small / Medium / Large" value="medium">
         </label>
-        <br><br>
+        <br>
         <label>
-            Strength:
+            Strength:<br>
             <input type="range" name="strength" min="0" max="100" value="50">
         </label>
-        <br><br>
+        <br>
         <input type="submit">
-
     </form>
-    
+    <div class="button-div">
+        <button data-trigger>See all orders</button>
+    </div>
     <script src="scripts/index.js"></script>
 </body>
 </html>
