@@ -35,6 +35,11 @@ body{
     border: none;
 }
 
+.body-alt h1{
+    width: 100%;
+    text-align: center;
+}
+
 form{
     width: 90%;
     height: 80%;
@@ -64,6 +69,10 @@ form{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.info-hidden{
+    display:none;
 }
 
 .form-hidden{
